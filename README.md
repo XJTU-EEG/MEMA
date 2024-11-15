@@ -10,6 +10,20 @@ During the ``preparation before recording" phase, the collector prepares the app
 During the ``EEG data recording" phase, each subject will undergo a total of 12 tasks (trials) of three different types. The process is similar for each task or trial, as shown in the right part of Figure~\ref{protocol}. It starts with a 5-second hint of start, followed by a video clip that varies in length from 1 to 6 minutes, depending on the type of task. After watching the video, there is a 15-second self-assessment period for subjects to evaluate their attention and emotional states during the video. Detailed task design and assessment methods will be presented subsequently.
 After that, there is a 15-second rest period. If subjects feel the rest period is insufficient, they can choose to extend it until they are ready. This cycle repeats until all 12 trials are completed.
 
+## Task Design for Each Trail
+Taking into account the physiological and psychological characteristics of individuals and drawing upon existing research, we categorize attention states into three types: ``neutral", ``relaxing", and ``concentrating", and develop a specific experimental task for each state.
+
+Each subject will undergo four rounds of experiments, each containing one instance of each task type, totaling 12 trials. The order of the tasks within each round is randomized to prevent fixed sequence effects that could bias subjects and thus impact data reliability. We provide a detailed description of each type of task as follows:
+
+``Neutral" Task:  For this task, the computer plays a one-minute blank video, and subjects simply need to maintain a normal state and watch the computer screen. The ``Neutral" state falls between ``relaxing" and ``concentrating". Subjects are neither actively relaxing nor consciously focusing their attention.
+
+``Relaxing" Task: For this task, the computer plays a soothing video of beautiful scenery for about 5 minutes to help subjects relax and reduce their focus. Additionally, relaxing music is played alongside the video, which has been proven to aid in physiological and psychological relaxation. This task requires subjects to maintain a relaxed state as much as possible.
+
+``Concentrating" Task: For this task, the computer plays a video clip from a well-known machine learning course, covering a complete knowledge point. Each clip lasts about 5 minutes, a duration chosen based on research on the Continuous Performance Test (CPT) task. Subjects are required to concentrate as much as possible on the course content, actively learn, and think about the material. At the end of each video clip, subjects are asked to answer a simple multiple-choice question related to the video content to assess whether they were focused on learning online. 
+
+Figure shows some snapshots of video clips for the ``Concentrating" and ``Relaxing" states.
+
+
 ## Project Description
 This is the Multi-label EEG dataset for classifying Mental Attention states (MEMA) in online learning. We meticulously designed a reliable and standard experimental paradigm with three attention states: neutral, relaxing, and concentrating, considering human physiological and psychological characteristics. This paradigm collected EEG signals from 20 subjects, each participating in 12 trials, resulting in 1,060 minutes of data. Emotional state labels, basic personal information, and personality traits were also collected to investigate the relationship between attention and other psychological states. Extensive quantitative and qualitative analysis, including a multi-label correlation study, validated the quality of the EEG attention data.
 
