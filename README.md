@@ -23,6 +23,9 @@ Each subject will undergo four rounds of experiments, each containing one instan
 
 Figure shows some snapshots of video clips for the ``Concentrating" and ``Relaxing" states.
 
+![image](video_atten.jpg)
+
+![image](video_relax.jpg)
 
 ## Project Description
 This is the Multi-label EEG dataset for classifying Mental Attention states (MEMA) in online learning. We meticulously designed a reliable and standard experimental paradigm with three attention states: neutral, relaxing, and concentrating, considering human physiological and psychological characteristics. This paradigm collected EEG signals from 20 subjects, each participating in 12 trials, resulting in 1,060 minutes of data. Emotional state labels, basic personal information, and personality traits were also collected to investigate the relationship between attention and other psychological states. Extensive quantitative and qualitative analysis, including a multi-label correlation study, validated the quality of the EEG attention data.
