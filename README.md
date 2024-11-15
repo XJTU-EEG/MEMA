@@ -1,5 +1,9 @@
 # A Multi-Label EEG Dataset for Mental Attention State Classification in Online Learning
 Paper Link: 
+
+## Project Description
+This is the Multi-label EEG dataset for classifying Mental Attention states (MEMA) in online learning. We meticulously designed a reliable and standard experimental paradigm with three attention states: neutral, relaxing, and concentrating, considering human physiological and psychological characteristics. This paradigm collected EEG signals from 20 subjects, each participating in 12 trials, resulting in 1,060 minutes of data. Emotional state labels, basic personal information, and personality traits were also collected to investigate the relationship between attention and other psychological states. Extensive quantitative and qualitative analysis, including a multi-label correlation study, validated the quality of the EEG attention data.
+
 ## Experiment Setup
 The whole process of acquiring attention EEG signals is shown in figure, with each module to be detailed in the following sections. Each collection session is conducted following the same procedure in a sequential manner.
 
@@ -27,13 +31,7 @@ Figure shows some snapshots of video clips for the ``Concentrating" and ``Relaxi
 
 ![image](video_relax.png)
 
-## Project Description
-This is the Multi-label EEG dataset for classifying Mental Attention states (MEMA) in online learning. We meticulously designed a reliable and standard experimental paradigm with three attention states: neutral, relaxing, and concentrating, considering human physiological and psychological characteristics. This paradigm collected EEG signals from 20 subjects, each participating in 12 trials, resulting in 1,060 minutes of data. Emotional state labels, basic personal information, and personality traits were also collected to investigate the relationship between attention and other psychological states. Extensive quantitative and qualitative analysis, including a multi-label correlation study, validated the quality of the EEG attention data.
-
-![image](procedure.jpg)
-
-
-### This dataset consists of four parts:
+## Dataset description:
 
 The first part is the raw data, which includes EEG data of 20 subjects throughout the entire session, including the rest process. Among them, Data1 is the gyroscope data, with a data format of: data * channel. The data contained in the channel is sequentially packet index, Pitch angle, Roll angle, Yaw angle, x-axis angular velocity, y-axis angular velocity, z-axis angular velocity, x-axis acceleration, y-axis acceleration, z-axis acceleration, and time scale; Data2 is EEG data in the format of data * channel, where the first 32 channels contain 32 channel EEG data, the 33rd channel is the data index, and the 34th channel is the added time scale. Time markers are used to distinguish between task status and rest status.
 
