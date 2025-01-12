@@ -1,5 +1,5 @@
 # A Multi-Label EEG Dataset for Mental Attention State Classification in Online Learning
-Paper Link: 
+Paper Link: https://arxiv.org/abs/2411.09879
 
 ## Project Description
 This is the Multi-label EEG dataset for classifying Mental Attention states (MEMA) in online learning. We meticulously designed a reliable and standard experimental paradigm with three attention states: neutral, relaxing, and concentrating, considering human physiological and psychological characteristics. This paradigm collected EEG signals from 20 subjects, each participating in 12 trials, resulting in 1,060 minutes of data. Emotional state labels, basic personal information, and personality traits were also collected to investigate the relationship between attention and other psychological states. Extensive quantitative and qualitative analysis, including a multi-label correlation study, validated the quality of the EEG attention data.
@@ -40,6 +40,9 @@ The second part is in drawing format, which includes data from 12 trials after s
 The third part is For-DL, which consists of 20 subjects' EEG data in. mat format and 4 types of label files (attention and 3D emotion) The mat file contains EEG data from 12 trials of the same subject, in the format of channel * data.
 
 The fourth part is For-ML, where Subject_123 is the EEG data of the first 9 trials, Subject_4 is the EEG data of the last 3 trials, and Subject is all EEG data of the subject. This part of the data is labeled by suffix.
+
+The correspondence between channels and electrodes is shown in the following figure.
+![image](video_relax.png)
 
 ## Dataset usage
 Dataset is available at: https://pan.baidu.com/s/1r-_DhrWga-vGtEzWAqDB6g?pwd=mema 
