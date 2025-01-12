@@ -42,7 +42,8 @@ The third part is For-DL, which consists of 20 subjects' EEG data in. mat format
 The fourth part is For-ML, where Subject_123 is the EEG data of the first 9 trials, Subject_4 is the EEG data of the last 3 trials, and Subject is all EEG data of the subject. This part of the data is labeled by suffix.
 
 The correspondence between channels and electrodes is shown in the following figure.
-![image](video_relax.png)
+
+![image](relation.png)
 
 ## Dataset usage
 Dataset is available at: https://pan.baidu.com/s/1r-_DhrWga-vGtEzWAqDB6g?pwd=mema 
